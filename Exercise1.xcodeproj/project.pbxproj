@@ -13,6 +13,7 @@
 		9A7A298C1BEB3D11004FF97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7A298A1BEB3D11004FF97E /* Main.storyboard */; };
 		9A7A298E1BEB3D11004FF97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7A298D1BEB3D11004FF97E /* Assets.xcassets */; };
 		9A7A29911BEB3D11004FF97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7A298F1BEB3D11004FF97E /* LaunchScreen.storyboard */; };
+		9A7A299A1BEB417B004FF97E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A29991BEB417B004FF97E /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9A7A298D1BEB3D11004FF97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A7A29901BEB3D11004FF97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A7A29921BEB3D11004FF97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7A29981BEB417B004FF97E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9A7A29991BEB417B004FF97E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				9A7A29871BEB3D11004FF97E /* ViewController.h */,
 				9A7A29881BEB3D11004FF97E /* ViewController.m */,
 				9A7A298A1BEB3D11004FF97E /* Main.storyboard */,
+				9A7A29981BEB417B004FF97E /* Person.h */,
+				9A7A29991BEB417B004FF97E /* Person.m */,
 				9A7A298D1BEB3D11004FF97E /* Assets.xcassets */,
 				9A7A298F1BEB3D11004FF97E /* LaunchScreen.storyboard */,
 				9A7A29921BEB3D11004FF97E /* Info.plist */,
@@ -152,6 +157,7 @@
 				9A7A29891BEB3D11004FF97E /* ViewController.m in Sources */,
 				9A7A29861BEB3D11004FF97E /* AppDelegate.m in Sources */,
 				9A7A29831BEB3D11004FF97E /* main.m in Sources */,
+				9A7A299A1BEB417B004FF97E /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				9A7A29971BEB3D11004FF97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

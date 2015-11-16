@@ -11,5 +11,11 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *ageTextField;
+
+@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
+
 @end
 
